@@ -29,3 +29,10 @@ export interface Company {
     catchPhrase: string;
     bs:          string;
 }
+
+export interface TransformedUser {
+  name: string;
+  email: string;
+  username: string;
+  city: string;
+}
